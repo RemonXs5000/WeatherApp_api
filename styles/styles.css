@@ -1,0 +1,89 @@
+
+body {  
+    font-size: 100%;  
+    font-family: 'Open Sans', sans-serif;  
+    color: white;  
+    height: 100%;  
+    background: linear-gradient(to bottom, rgb(43,50,178) 0%, rgb(20,136,204) 100%);  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+}
+
+.vh-60 {
+    height: 60vh;
+}
+
+.w-95{
+    width: 95%;
+}
+
+.vh-75{
+    height: 75vh;
+}
+
+
+.currentDegree .degree {
+    font-size: 90px;
+    margin-bottom: 0;
+}
+
+.currentDegree .degree-text{
+    font-weight: 500;
+}
+
+.currentTemp{
+    border-right: 1px rgb(184, 184, 184) solid;
+    padding: 20px;
+}
+
+.currentStats .item {
+    margin-bottom: 15px;
+}
+
+
+.currentStats .item .itemvalue{
+    font-size: 25px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+.currentStats .item .itemtext{
+    text-align: center;
+}
+
+.hourlyWeather .item-card{
+    background-color:  rgba(1, 2, 22, 0.24) ;
+    border-radius: 10px;
+    padding: 30px 15px;
+}
+
+
+.item-card span i {
+    font-size: 60px;
+}
+
+
+.ForcastWeather .item-card{
+    background-color:  rgba(22, 1, 1, 0.24) ;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.ForcastWeather .item-card .forcast-degree {
+    font-size: 80px;
+}
+
+
+.lightBoxContainer {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.closeBtn{
+    font-size: 30px;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    
+}
